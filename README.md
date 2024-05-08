@@ -1,6 +1,4 @@
-# Evangelisti-Critical-temperature-of-superconductors
-
-describing the project, with objectives, results, pertinent references, and anything else that may be useful for understanding
+# Critical temperature of superconductors
 
 Kaggle Competition available [here](https://www.kaggle.com/competitions/critical-temperature-of-superconductors/overview).
 
@@ -14,3 +12,6 @@ Although superconductivity was discovered more than a century ago, many of its p
 
 ### Objectives
 Develop machine learning algorithms that allow to establish a relationship between the chemical composition, various properties of superconductors, and their critical temperature.
+
+
+### Results
