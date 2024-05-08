@@ -1,4 +1,4 @@
-# Critical temperature of superconductors
+# Critical Temperature of Superconductors
 
 Kaggle Competition available [here](https://www.kaggle.com/competitions/critical-temperature-of-superconductors/overview).
 
@@ -12,6 +12,19 @@ Although superconductivity was discovered more than a century ago, many of its p
 
 ### Objectives
 Develop machine learning algorithms that allow to establish a relationship between the chemical composition, various properties of superconductors, and their critical temperature.
+
+
+### Data
+The superconductor data comes from a database of superconducting materials compiled by Japan's National Institute of Materials Science (NIMS).
+For each superconductor (each row), the data provides the complete chemical formula of the superconductor, as well as 8 basic chemical properties (absolute value, average, weighted average, and so on): 
+- atomic mass
+- ionization energy
+- atomic radius
+- density
+- specific heat of melting
+- electron affinity energy
+- thermal conductivity
+- valence
 
 
 ### Results
