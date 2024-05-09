@@ -1,0 +1,13 @@
+pca__n_components,random_forest__max_samples,random_forest__criterion,random_forest__n_estimators,random_forest__max_depth,random_forest__max_leaf_nodes,random_forest__ccp_alpha,random_forest__max_features,tag,MSE,R2,features_remover__corr_threshold
+0.95,0.66,squared_error,200,25,,0.01,0.4,minmax + pca + random_forest,101.58365849043015,0.9107222777967998,
+0.95,0.66,squared_error,200,25,,0.01,0.4,features_remover + minmax + pca + random_forest,102.2785739691407,0.910111545007836,0.95
+0.95,0.66,squared_error,200,25,,0.01,0.4,minmax + pca + random_forest,101.58365849043014,0.9107222777967998,
+0.95,0.33,squared_error,200,25,,0.01,0.4,minmax + pca + random_forest,117.519005637488,0.8967173530190551,
+0.95,0.66,squared_error,200,25,,0.01,0.4,features_remover + minmax + pca + random_forest,102.27857396914072,0.910111545007836,0.95
+0.95,0.33,squared_error,200,25,,0.01,0.4,features_remover + minmax + pca + random_forest,114.42662984155707,0.8994351156135478,0.95
+0.95,0.66,squared_error,200,25,,0.01,0.4,minmax + pca + random_forest,101.58365849043015,0.9107222777967998,
+0.95,0.33,squared_error,200,25,,0.01,0.4,minmax + pca + random_forest,117.51900563748798,0.8967173530190551,
+0.95,0.66,squared_error,200,25,,0.01,0.4,features_remover + minmax + pca + random_forest,102.2785739691407,0.910111545007836,0.95
+0.95,0.33,squared_error,200,25,,0.01,0.4,features_remover + minmax + pca + random_forest,114.42662984155707,0.8994351156135478,0.95
+0.95,0.66,squared_error,200,25,,0.01,0.4,minmax + pca + random_forest,101.58365849043014,0.9107222777967998,
+0.95,0.66,squared_error,200,25,,0.01,0.4,minmax + pca + random_forest,101.58365849043015,0.9107222777967998,
