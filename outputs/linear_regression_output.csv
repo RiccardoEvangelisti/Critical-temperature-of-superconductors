@@ -1,0 +1,5 @@
+tag,MSE,R2,pca__n_components,features_remover__corr_threshold
+linear_regression,280.1071280056222,0.7538253028800098,,
+minmax + linear_regression,280.10712800562004,0.7538253028800117,,
+minmax + pca + linear_regression,395.144134820726,0.6527239831387641,0.95,
+features_remover + minmax + pca + linear_regression,378.10349460029,0.6677003047870742,0.95,0.95
