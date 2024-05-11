@@ -23,85 +23,69 @@ class Step:
     def __init__(self, tag: str, constructor, parameters: dict = {}):
         self.tag = tag
         self.constructor = constructor
+        parameters_rebuild = dict()
+        # Iterate over all parameters
         if parameters != {}:
-            parameters_rebuild = dict()
             for param in parameters.items():
-                name_param = tag + "__" + param[0]
-                value_param = param[1] if type(param[1]) is list else [param[1]]
+                # Convert to the format needed by the Pipeline object
+                name_param = tag + "__" + param[0]  # "namestep__parametername"
+                value_param = param[1] if type(param[1]) is list else [param[1]]  # [value]
                 parameters_rebuild.update({name_param: value_param})
-        else:
-            parameters_rebuild = parameters
         self.parameters = parameters_rebuild
 
 
-class Pipe:
-    """
-    Class to represent a Pipeline, in which are calculated all possible combinations of the parameters.
-    (All combinations of parameters share the same Pipeline object)
+class Combination:
+    def __init__(self, tag, pipeline, parameters):
+        self.pipeline = pipeline
+        self.tag = tag
+        self.parameters = parameters
 
-    ## Parameters
-    tag:
-        Name of the Pipeline
-    pipe:
-        Actual Pipeline object
-    parameter_grid:
-        List of dictionaries (all possible combinations)
-    """
+        self.MSE = None
+        self.R2 = None
 
-    def __init__(self, *steps: Step):
-        name_rebuild = ""
-        constructors = list()
-        parameters = dict()
-        for index, step in enumerate(steps):
-            if index == 0:
-                name_rebuild = step.tag
-            else:
-                name_rebuild = name_rebuild + " + " + step.tag
-            constructors.append((step.tag, step.constructor))
-            parameters.update(**step.parameters)
-        self.tag = name_rebuild
-        self.pipeline = Pipeline(constructors)
-        keys, values = zip(*parameters.items()) if parameters != {} else ([], [])
-        self.parameter_grid = [{k: [v] for k, v in zip(keys, v)} for v in itertools.product(*values)]
+    def set_MSE(self, mse):
+        self.MSE = mse
+        return self
 
+    def set_R2(self, r2):
+        self.R2 = r2
+        return self
 
-class MultiplePipes:
-    """
-    Class to represent a list of Pipelines, in which are calculated all possible combinations of the parameters.
+    def as_df(self):
+        if self.MSE == None or self.R2 == None:
+            return ValueError("Please set MSE and R2 parameters")
 
-    ## Parameters
-    combinations = (pipeline, parameters, tag):
-        pipeline:
-            Actual Pipeline
-        parameters:
-            Dictionary of parameters
-        tag:
-            Name of the Pipeline
+        out = pd.DataFrame({"tag": self.tag, "MSE": self.MSE, "R2": self.R2}, index=[0])
 
-    """
+        params_df = pd.DataFrame(self.parameters, index=[0]).fillna("'None'")
 
-    def __init__(self, *pipes: Pipe):
-        self.combinations = []
-        for pipe in pipes:
-            for parameters in pipe.parameter_grid:
-                self.combinations.append((pipe.pipeline, parameters, pipe.tag))
+        if not params_df.empty:
+            out = pd.concat([out, params_df], axis=1)
+        return out
+
+    def as_comparable(self) -> pd.DataFrame:
+        out = pd.DataFrame({"tag": self.tag}, index=[0])
+        params_df = pd.DataFrame(self.parameters, index=[0]).fillna("'None'")
+        if not params_df.empty:
+            out = pd.concat([out, params_df], axis=1)
+        return out
 
 
-def combination_already_tested(file_name, parameters, tag):
+def combination_already_tested(file_name: str, combination: Combination):
     """
     Check if the combination of given parameters is already tested
     """
     if os.path.isfile(file_name):
         outputs = pd.read_csv(file_name)
-        # Re-create the parameters dictionary to be comparable with the outputs dataset
-        parameters = pd.DataFrame({**parameters, "tag": [tag]}).fillna("NaN")
-        # if all parameters are already present in the output:
-        if all(x in outputs.columns for x in parameters.keys()):
+        combination: pd.DataFrame = combination.as_comparable()
+        # if all parameters of the combination are already present in the output:
+        if all(x in outputs.columns for x in combination.columns):
             # take only the same columns
-            outputs = outputs.loc[:, parameters.keys()].replace(np.nan, "NaN")
+            # outputs = outputs.loc[:, combination.columns]
             # find if actual parameters are already present in the output dataset
-            if (outputs == parameters.loc[0]).all(axis=1).any():
-                return True
+            outputs = pd.concat([outputs, combination], axis=0).reset_index(drop=True).drop(columns=["MSE", "R2"])
+            duplicated = outputs.duplicated(keep=False).any()
+            return duplicated
     return False
 
 
