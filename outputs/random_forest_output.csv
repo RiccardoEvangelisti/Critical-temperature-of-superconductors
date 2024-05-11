@@ -1,17 +1,23 @@
-tag,MSE,R2,random_forest__max_samples,random_forest__criterion,random_forest__n_estimators,random_forest__max_depth,random_forest__max_leaf_nodes,random_forest__max_features,pca__n_components,features_remover__corr_threshold
-random_forest,83.78632636383226,0.9263636250092177,0.66,squared_error,200,25,'None',0.4,,
-minmax + random_forest,83.27310322693059,0.9268146758310276,0.66,squared_error,200,25,'None',0.4,,
-minmax + pca + random_forest,100.41475487299702,0.911749579372568,0.66,squared_error,200,25,'None',0.4,0.95,
-features_remover + minmax + pca + random_forest,101.15455711924434,0.9110993974396936,0.66,squared_error,200,25,'None',0.4,0.95,0.95
-std + random_forest,83.2301495369914,0.9268524260721096,0.66,squared_error,200,25,'None',0.4,,
-std + pca + random_forest,102.93481565251012,0.9095348010356592,0.66,squared_error,200,25,'None',0.4,0.95,
-features_remover + std + pca + random_forest,99.68086773090506,0.9123945627623556,0.66,squared_error,200,25,'None',0.4,0.95,0.95
-random_forest,83.78632636383226,0.9263636250092177,0.66,squared_error,200,25,,0.4,,
-minmax + random_forest,83.27310322693059,0.9268146758310276,0.66,squared_error,200,25,,0.4,,
-minmax + pca + random_forest,100.414754872997,0.911749579372568,0.66,squared_error,200,25,,0.4,0.95,
-features_remover + minmax + pca + random_forest,101.15455711924432,0.9110993974396936,0.66,squared_error,200,25,,0.4,0.95,0.95
-std + random_forest,83.23014953699142,0.9268524260721094,0.66,squared_error,200,25,,0.4,,
-std + pca + random_forest,102.93481565251012,0.9095348010356592,0.66,squared_error,200,25,,0.4,0.95,
-features_remover + std + pca + random_forest,99.68086773090506,0.9123945627623556,0.66,squared_error,200,25,,0.4,0.95,0.95
-l1 + random_forest,87.9671866558733,0.9226892379151715,0.66,squared_error,200,25,'None',0.4,,
-l1 + random_forest,87.9671866558733,0.9226892379151715,0.66,squared_error,200,25,,0.4,,
+tag,MSE,R2,random_forest__max_samples,random_forest__criterion,random_forest__n_estimators,random_forest__max_depth,random_forest__max_features,pca__n_components,features_remover__corr_threshold,random_forest__max_leaf_nodes
+random_forest,83.78632636383226,0.9263636250092177,0.66,squared_error,200,25,0.4,,,
+minmax + random_forest,83.27310322693059,0.9268146758310276,0.66,squared_error,200,25,0.4,,,
+minmax + pca + random_forest,100.41475487299702,0.911749579372568,0.66,squared_error,200,25,0.4,0.95,,
+features_remover + minmax + pca + random_forest,101.15455711924432,0.9110993974396936,0.66,squared_error,200,25,0.4,0.95,0.95,
+std + random_forest,83.23014953699142,0.9268524260721094,0.66,squared_error,200,25,0.4,,,
+std + pca + random_forest,102.93481565251012,0.9095348010356592,0.66,squared_error,200,25,0.4,0.95,,
+features_remover + std + pca + random_forest,99.68086773090506,0.9123945627623556,0.66,squared_error,200,25,0.4,0.95,0.95,
+l1 + random_forest,87.9671866558733,0.9226892379151715,0.66,squared_error,200,25,0.4,,,
+minmax + l1 + random_forest,88.75884017003341,0.9219934860238864,0.66,squared_error,200,25,0.4,,,
+minmax + lmax + random_forest,84.1039737653879,0.9260844577012464,0.66,squared_error,200,25,0.4,,,
+random_forest,83.78632636383226,0.9263636250092177,0.66,squared_error,200,25,0.4,,,'None'
+minmax + random_forest,83.27310322693059,0.9268146758310276,0.66,squared_error,200,25,0.4,,,'None'
+minmax + pca + random_forest,100.41475487299702,0.911749579372568,0.66,squared_error,200,25,0.4,0.95,,'None'
+features_remover + minmax + pca + random_forest,101.15455711924434,0.9110993974396936,0.66,squared_error,200,25,0.4,0.95,0.95,'None'
+std + random_forest,83.23014953699142,0.9268524260721094,0.66,squared_error,200,25,0.4,,,'None'
+std + pca + random_forest,102.93481565251012,0.9095348010356592,0.66,squared_error,200,25,0.4,0.95,,'None'
+features_remover + std + pca + random_forest,99.68086773090508,0.9123945627623556,0.66,squared_error,200,25,0.4,0.95,0.95,'None'
+minmax + l1 + random_forest,88.75884017003341,0.9219934860238864,0.66,squared_error,200,25,0.4,,,'None'
+lmax + random_forest,83.3482757865571,0.9267486097432792,0.66,squared_error,200,25,0.4,,,'None'
+features_remover + minmax + l1 + random_forest,87.94455061272325,0.9227091318075766,0.66,squared_error,200,25,0.4,,0.95,'None'
+features_remover + minmax + l1 + random_forest,87.94455061272325,0.9227091318075766,0.66,squared_error,200,25,0.4,,0.95,
+lmax + random_forest,83.3482757865571,0.9267486097432791,0.66,squared_error,200,25,0.4,,,

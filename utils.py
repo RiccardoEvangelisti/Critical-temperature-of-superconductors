@@ -34,6 +34,11 @@ class Step:
         self.parameters = parameters_rebuild
 
 
+class Pipe:
+    def __init__(self, *steps: Step):
+        self.steps = list(steps)
+
+
 class Combination:
     def __init__(self, tag, pipeline, parameters):
         self.pipeline = pipeline
@@ -69,6 +74,33 @@ class Combination:
         if not params_df.empty:
             out = pd.concat([out, params_df], axis=1)
         return out
+
+
+def extract_combinations(*pipes: Pipe):
+    all_combinations = list()
+    # Iterate over all Pipe of Steps
+    for pipe in pipes:
+        tag = ""
+        constructors = list()
+        all_parameters = dict()
+        # Iterate over all steps
+        for index, step in enumerate(pipe.steps):
+            if index == 0:
+                tag = step.tag
+            else:
+                tag = tag + " + " + step.tag
+            constructors.append((step.tag, step.constructor))
+            all_parameters.update(**step.parameters)
+
+        pipeline = Pipeline(constructors)  # Needs as input a list of pairs (step_name, step_constructor)
+
+        # For each possible combination of parameters
+        keys, values = zip(*all_parameters.items()) if all_parameters != {} else ([], [])
+        for v in itertools.product(*values):
+            single_parameter_combination = {k: [v] for k, v in zip(keys, v)}
+            all_combinations.append(Combination(tag, pipeline, single_parameter_combination))
+
+    return all_combinations
 
 
 def combination_already_tested(file_name: str, combination: Combination):
