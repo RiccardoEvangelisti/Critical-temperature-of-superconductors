@@ -14,17 +14,12 @@ Although superconductivity was discovered more than a century ago, many of its p
 Develop machine learning algorithms that allow to establish a relationship between the chemical composition, various properties of superconductors, and their critical temperature.
 
 
-### Data
-The superconductor data comes from a database of superconducting materials compiled by Japan's National Institute of Materials Science (NIMS).
-For each superconductor (each row), the data provides the complete chemical formula of the superconductor, as well as 8 basic chemical properties (absolute value, average, weighted average, and so on): 
-- atomic mass
-- ionization energy
-- atomic radius
-- density
-- specific heat of melting
-- electron affinity energy
-- thermal conductivity
-- valence
+### Dataset Description
+The dataset comes from a database of superconducting materials compiled by Japan's National Institute of Materials Science (NIMS).
+See [0_Data_Exploration.ipynb](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/b2697efe428f7c333176c3062dc0e6a3e26a957b/0_Data_Exploration.ipynb)
+
+### Training
+See [1_Training.ipynb](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/cb8b27920a9046c159abe8b43eea98b0773ce812/1_Training.ipynb)
 
 
 ### Results
