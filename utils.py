@@ -112,8 +112,6 @@ def combination_already_tested(file_name: str, combination: Combination):
         combination: pd.DataFrame = combination.as_comparable()
         # if all parameters of the combination are already present in the output:
         if all(x in outputs.columns for x in combination.columns):
-            # take only the same columns
-            # outputs = outputs.loc[:, combination.columns]
             # find if actual parameters are already present in the output dataset
             outputs = pd.concat([outputs, combination], axis=0).reset_index(drop=True).drop(columns=["MSE", "R2"])
             duplicated = outputs.duplicated(keep=False).any()
