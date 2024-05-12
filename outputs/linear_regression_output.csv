@@ -1,5 +1,16 @@
-tag,MSE,R2,pca__n_components,features_remover__corr_threshold
+tag,MSE,R2,high_corr_features_remover__corr_threshold,pca__n_components
 linear_regression,280.1071280056222,0.7538253028800098,,
+l2 + linear_regression,296.3260102714307,0.7395711906843,,
 minmax + linear_regression,280.10712800562004,0.7538253028800117,,
-minmax + pca + linear_regression,395.144134820726,0.6527239831387641,0.95,
-features_remover + minmax + pca + linear_regression,378.10349460029,0.6677003047870742,0.95,0.95
+high_corr_features_remover + minmax + linear_regression,297.6406403280478,0.738415816102022,0.95,
+std + linear_regression,280.17041394089944,0.7537696834601837,,
+std + pca + linear_regression,409.0075344421931,0.6405400082889718,,0.95
+l2 + std + pca + linear_regression,436.0919965342069,0.6167365824367546,,0.95
+l1 + minmax + linear_regression,285.466279101491,0.7491153641960528,,
+l2 + minmax + linear_regression,296.3260102714354,0.7395711906842959,,
+lmax + minmax + linear_regression,336.4332065166308,0.7043226164752353,,
+lmax + std + linear_regression,336.4185840061981,0.7043354676015259,,
+high_corr_features_remover + std + pca + linear_regression,411.5268532079745,0.63832588207758,0.95,0.95
+high_corr_features_remover + lmax + minmax + linear_regression,349.5332133123521,0.6928095563536744,0.95,
+only_properties + linear_regression,311.34273727555615,0.7263736035743427,,
+only_formula + linear_regression,473.25443965363587,0.5840760312958331,,
