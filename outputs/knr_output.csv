@@ -706,3 +706,243 @@ only_properties + knr,123.38159301292468,0.8915649647818709,5,distance,minkowski
 only_formula + knr,99.31325342265154,0.9127176439407448,5,distance,minkowski,,
 only_properties + high_corr_features_remover + knr,125.76727316058788,0.8894682880855022,5,distance,minkowski,0.95,
 only_formula + high_corr_features_remover + knr,99.31325342265154,0.9127176439407448,5,distance,minkowski,0.95,
+high_corr_features_remover + minmax + knr,96.885603642074,0.9148512060307288,5,distance,cosine,0.85,
+high_corr_features_remover + minmax + knr,104.3731890790314,0.9082706734672518,5,distance,euclidean,0.85,
+high_corr_features_remover + minmax + knr,98.52058636911102,0.9134142865903327,5,distance,cityblock,0.85,
+high_corr_features_remover + minmax + knr,104.8175008159516,0.9078801860560888,5,distance,nan_euclidean,0.85,
+high_corr_features_remover + minmax + knr,99.93501159076638,0.9121712061195892,15,distance,cosine,0.85,
+high_corr_features_remover + minmax + knr,115.23768855431835,0.898722309286975,15,distance,euclidean,0.85,
+high_corr_features_remover + minmax + knr,105.88585988808472,0.9069412489684454,15,distance,cityblock,0.85,
+high_corr_features_remover + minmax + knr,115.25450989537391,0.8987075256983924,15,distance,nan_euclidean,0.85,
+high_corr_features_remover + minmax + knr,94.7881003589246,0.9166946158686504,5,distance,cosine,0.99,
+high_corr_features_remover + minmax + knr,102.69268559996328,0.9097475992345974,5,distance,euclidean,0.99,
+high_corr_features_remover + minmax + knr,95.42854394916296,0.916131756194311,5,distance,cityblock,0.99,
+high_corr_features_remover + minmax + knr,103.82304943732582,0.9087541686950772,5,distance,nan_euclidean,0.99,
+high_corr_features_remover + minmax + knr,98.08489084567262,0.91379720156391,15,distance,cosine,0.99,
+high_corr_features_remover + minmax + knr,113.1433843585858,0.9005629075778234,15,distance,euclidean,0.99,
+high_corr_features_remover + minmax + knr,102.45955652529057,0.909952486842264,15,distance,cityblock,0.99,
+high_corr_features_remover + minmax + knr,113.3839138088356,0.900351516082772,15,distance,nan_euclidean,0.99,
+std + pca + knr,94.886867500834,0.9166078134676616,5,distance,cosine,,0.85
+std + pca + knr,102.8857532994025,0.9095779199309272,5,distance,euclidean,,0.85
+std + pca + knr,103.42399828887255,0.9091048784264047,5,distance,cityblock,,0.85
+std + pca + knr,102.42508823725862,0.909982779610702,5,distance,nan_euclidean,,0.85
+std + pca + knr,100.26160905907534,0.9118841729640478,15,distance,cosine,,0.85
+std + pca + knr,117.2618782235916,0.8969433317854216,15,distance,euclidean,,0.85
+std + pca + knr,116.36430318628506,0.8977321737707172,15,distance,cityblock,,0.85
+std + pca + knr,117.76717385594358,0.8964992481230887,15,distance,nan_euclidean,,0.85
+std + pca + knr,100.1024061152868,0.9120240899192028,5,distance,cosine,,0.99
+std + pca + knr,105.50850035481628,0.9072728948264752,5,distance,euclidean,,0.99
+std + pca + knr,105.01889176168106,0.9077031917917135,5,distance,cityblock,,0.99
+std + pca + knr,105.56250308224304,0.9072254340383026,5,distance,nan_euclidean,,0.99
+std + pca + knr,101.17028163765391,0.9110855778036692,15,distance,cosine,,0.99
+std + pca + knr,117.13593820258365,0.897054015318353,15,distance,euclidean,,0.99
+std + pca + knr,117.82684687247206,0.8964468039497657,15,distance,cityblock,,0.99
+std + pca + knr,117.08872415705024,0.8970955098116983,15,distance,nan_euclidean,,0.99
+l2 + std + pca + knr,98.06624067693502,0.9138135924343348,5,distance,cosine,,0.85
+l2 + std + pca + knr,104.33698710652158,0.9083024899000616,5,distance,euclidean,,0.85
+l2 + std + pca + knr,107.0104047883385,0.9059529324547284,5,distance,cityblock,,0.85
+l2 + std + pca + knr,104.73795350700878,0.907950096932064,5,distance,nan_euclidean,,0.85
+l2 + std + pca + knr,101.49789271164144,0.910797653831558,15,distance,cosine,,0.85
+l2 + std + pca + knr,119.06780468199707,0.8953561768919195,15,distance,euclidean,,0.85
+l2 + std + pca + knr,118.48356044774772,0.8958696452510951,15,distance,cityblock,,0.85
+l2 + std + pca + knr,119.0103188865484,0.895406698806103,15,distance,nan_euclidean,,0.85
+l2 + std + pca + knr,100.28464337384028,0.9118639290470114,5,distance,cosine,,0.99
+l2 + std + pca + knr,106.23132493106463,0.9066376338732972,5,distance,euclidean,,0.99
+l2 + std + pca + knr,108.4270593674296,0.9047078926929256,5,distance,cityblock,,0.99
+l2 + std + pca + knr,106.6338815196311,0.9062838433540428,5,distance,nan_euclidean,,0.99
+l2 + std + pca + knr,102.71812973495624,0.9097252374251356,15,distance,cosine,,0.99
+l2 + std + pca + knr,119.22869935534167,0.8952147731448573,15,distance,euclidean,,0.99
+l2 + std + pca + knr,119.5825717692707,0.8949037691552825,15,distance,cityblock,,0.99
+l2 + std + pca + knr,118.8114658117112,0.895581462639562,15,distance,nan_euclidean,,0.99
+high_corr_features_remover + std + pca + knr,98.80410034891425,0.913165117750524,5,distance,cosine,0.85,0.85
+high_corr_features_remover + std + pca + knr,107.22888003453916,0.9057609234974964,5,distance,euclidean,0.85,0.85
+high_corr_features_remover + std + pca + knr,107.36650262004454,0.9056399726364992,5,distance,cityblock,0.85,0.85
+high_corr_features_remover + std + pca + knr,106.6413853654232,0.9062772485309182,5,distance,nan_euclidean,0.85,0.85
+high_corr_features_remover + std + pca + knr,103.60117683860804,0.908949163446469,15,distance,cosine,0.85,0.85
+high_corr_features_remover + std + pca + knr,119.56739171205544,0.894917110286634,15,distance,euclidean,0.85,0.85
+high_corr_features_remover + std + pca + knr,122.75383844618102,0.8921166725925008,15,distance,cityblock,0.85,0.85
+high_corr_features_remover + std + pca + knr,119.46544670015813,0.8950067055875656,15,distance,nan_euclidean,0.85,0.85
+high_corr_features_remover + std + pca + knr,99.77883719287138,0.91230846140964,5,distance,cosine,0.85,0.95
+high_corr_features_remover + std + pca + knr,108.2946907067012,0.904824226094346,5,distance,euclidean,0.85,0.95
+high_corr_features_remover + std + pca + knr,111.00088041281036,0.9024458666573906,5,distance,cityblock,0.85,0.95
+high_corr_features_remover + std + pca + knr,108.14071507384207,0.9049595489797464,5,distance,nan_euclidean,0.85,0.95
+high_corr_features_remover + std + pca + knr,104.16775609288776,0.908451220115609,15,distance,cosine,0.85,0.95
+high_corr_features_remover + std + pca + knr,120.45013984357756,0.894141299062343,15,distance,euclidean,0.85,0.95
+high_corr_features_remover + std + pca + knr,126.01876463195885,0.889247262518485,15,distance,cityblock,0.85,0.95
+high_corr_features_remover + std + pca + knr,120.28787051215896,0.8942839109401565,15,distance,nan_euclidean,0.85,0.95
+high_corr_features_remover + std + pca + knr,101.58597361514192,0.91072024312839,5,distance,cosine,0.85,0.99
+high_corr_features_remover + std + pca + knr,108.32635520765756,0.9047963974596808,5,distance,euclidean,0.85,0.99
+high_corr_features_remover + std + pca + knr,110.72329651287689,0.9026898237925696,5,distance,cityblock,0.85,0.99
+high_corr_features_remover + std + pca + knr,110.19488715536885,0.9031542211624836,5,distance,nan_euclidean,0.85,0.99
+high_corr_features_remover + std + pca + knr,104.50983934645218,0.9081505771368472,15,distance,cosine,0.85,0.99
+high_corr_features_remover + std + pca + knr,120.492404428122,0.894104154447805,15,distance,euclidean,0.85,0.99
+high_corr_features_remover + std + pca + knr,127.3403734551828,0.8880857545837003,15,distance,cityblock,0.85,0.99
+high_corr_features_remover + std + pca + knr,120.663428376967,0.8939538484948399,15,distance,nan_euclidean,0.85,0.99
+high_corr_features_remover + std + pca + knr,97.1188570903674,0.9146462091161746,5,distance,cosine,0.95,0.85
+high_corr_features_remover + std + pca + knr,104.47300395243592,0.9081829502579092,5,distance,euclidean,0.95,0.85
+high_corr_features_remover + std + pca + knr,106.130369899973,0.9067263591205934,5,distance,cityblock,0.95,0.85
+high_corr_features_remover + std + pca + knr,104.62238353075324,0.9080516666568452,5,distance,nan_euclidean,0.95,0.85
+high_corr_features_remover + std + pca + knr,101.44325390445704,0.9108456736442112,15,distance,cosine,0.95,0.85
+high_corr_features_remover + std + pca + knr,118.2392825698027,0.8960843310859198,15,distance,euclidean,0.95,0.85
+high_corr_features_remover + std + pca + knr,119.67358517254962,0.8948237811980121,15,distance,cityblock,0.95,0.85
+high_corr_features_remover + std + pca + knr,118.5908145620976,0.895775383997185,15,distance,nan_euclidean,0.95,0.85
+high_corr_features_remover + std + pca + knr,101.76563602589592,0.9105623451846064,5,distance,cosine,0.95,0.99
+high_corr_features_remover + std + pca + knr,105.239098871745,0.9075096607701733,5,distance,euclidean,0.95,0.99
+high_corr_features_remover + std + pca + knr,106.09764991577546,0.9067551153763052,5,distance,cityblock,0.95,0.99
+high_corr_features_remover + std + pca + knr,106.7095108964267,0.9062173757883702,5,distance,nan_euclidean,0.95,0.99
+high_corr_features_remover + std + pca + knr,101.5909487806408,0.9107158706589404,15,distance,cosine,0.95,0.99
+high_corr_features_remover + std + pca + knr,117.7567903969584,0.896508373720459,15,distance,euclidean,0.95,0.99
+high_corr_features_remover + std + pca + knr,120.49833882048344,0.8940989389531028,15,distance,cityblock,0.95,0.99
+high_corr_features_remover + std + pca + knr,118.5334161556297,0.895825829108768,15,distance,nan_euclidean,0.95,0.99
+high_corr_features_remover + std + pca + knr,96.67392088088002,0.9150372453507328,5,distance,cosine,0.99,0.85
+high_corr_features_remover + std + pca + knr,103.39791658744156,0.9091278005669298,5,distance,euclidean,0.99,0.85
+high_corr_features_remover + std + pca + knr,103.19533019587796,0.9093058454597496,5,distance,cityblock,0.99,0.85
+high_corr_features_remover + std + pca + knr,104.55666621532782,0.908109422917229,5,distance,nan_euclidean,0.99,0.85
+high_corr_features_remover + std + pca + knr,100.63792626260772,0.9115534431669868,15,distance,cosine,0.99,0.85
+high_corr_features_remover + std + pca + knr,116.80599884759108,0.8973439855214019,15,distance,euclidean,0.99,0.85
+high_corr_features_remover + std + pca + knr,116.34752269156364,0.8977469214611276,15,distance,cityblock,0.99,0.85
+high_corr_features_remover + std + pca + knr,116.97859934605498,0.8971922940034651,15,distance,nan_euclidean,0.99,0.85
+high_corr_features_remover + std + pca + knr,97.09368500428413,0.9146683318329778,5,distance,cosine,0.99,0.95
+high_corr_features_remover + std + pca + knr,105.6879013881253,0.9071152265966366,5,distance,euclidean,0.99,0.95
+high_corr_features_remover + std + pca + knr,106.16551653161072,0.9066954701837076,5,distance,cityblock,0.99,0.95
+high_corr_features_remover + std + pca + knr,105.66400461299595,0.9071362284948083,5,distance,nan_euclidean,0.99,0.95
+high_corr_features_remover + std + pca + knr,102.25271635063142,0.9101342702110468,15,distance,cosine,0.99,0.95
+high_corr_features_remover + std + pca + knr,117.69997590289364,0.8965583056553155,15,distance,euclidean,0.99,0.95
+high_corr_features_remover + std + pca + knr,117.98565415074768,0.8963072347288454,15,distance,cityblock,0.99,0.95
+high_corr_features_remover + std + pca + knr,118.10039795615631,0.896206391091827,15,distance,nan_euclidean,0.99,0.95
+high_corr_features_remover + std + pca + knr,97.25929766900263,0.9145227816362848,5,distance,cosine,0.99,0.99
+high_corr_features_remover + std + pca + knr,106.03844947381806,0.906807144223168,5,distance,euclidean,0.99,0.99
+high_corr_features_remover + std + pca + knr,104.0731233950034,0.908534388922862,5,distance,cityblock,0.99,0.99
+high_corr_features_remover + std + pca + knr,107.96712938853946,0.9051121063380972,5,distance,nan_euclidean,0.99,0.99
+high_corr_features_remover + std + pca + knr,100.68507869985991,0.91151200281864,15,distance,cosine,0.99,0.99
+high_corr_features_remover + std + pca + knr,117.26291127944144,0.896942423874892,15,distance,euclidean,0.99,0.99
+high_corr_features_remover + std + pca + knr,118.16266976622062,0.8961516629451681,15,distance,cityblock,0.99,0.99
+high_corr_features_remover + std + pca + knr,117.3944851681871,0.8968267889660574,15,distance,nan_euclidean,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,104.63469701590324,0.9080408448384258,5,distance,cosine,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,108.96394769763052,0.9042360435007416,5,distance,euclidean,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,113.66512881643926,0.9001043677155907,5,distance,cityblock,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,109.64515707896338,0.9036373564401196,5,distance,nan_euclidean,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,107.80810368321316,0.9052518675256176,15,distance,cosine,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,122.93673134744586,0.8919559355027493,15,distance,euclidean,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,130.65381696390008,0.8851737046191371,15,distance,cityblock,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,123.3059089999448,0.8916314803650508,15,distance,nan_euclidean,0.85,0.85
+high_corr_features_remover + lmax + std + pca + knr,104.8906608757061,0.9078158886721572,5,distance,cosine,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,112.34924536249255,0.9012608438575118,5,distance,euclidean,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,115.36977984746731,0.8986062196525746,5,distance,cityblock,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,114.40861750258551,0.8994509459214816,5,distance,nan_euclidean,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,108.56085411873724,0.9045903059588288,15,distance,cosine,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,124.24267928557484,0.8908081912792717,15,distance,euclidean,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,128.32309524902416,0.8872220805969846,15,distance,cityblock,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,124.91584639849934,0.8902165722393878,15,distance,nan_euclidean,0.85,0.95
+high_corr_features_remover + lmax + std + pca + knr,104.26490208808676,0.9083658424741516,5,distance,cosine,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,111.86849192077868,0.9016833583923828,5,distance,euclidean,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,111.91963712443616,0.9016384089649648,5,distance,cityblock,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,110.71195394051615,0.9026997923154536,5,distance,nan_euclidean,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,107.2271169786268,0.9057624729752204,15,distance,cosine,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,123.21187265744804,0.8917141250599475,15,distance,euclidean,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,127.38876051063396,0.8880432291799198,15,distance,cityblock,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,122.86647784286735,0.8920176784342283,15,distance,nan_euclidean,0.85,0.99
+high_corr_features_remover + lmax + std + pca + knr,99.282834281512,0.912744378079608,5,distance,cosine,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,105.96373566144148,0.9068728071367236,5,distance,euclidean,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,105.05465127052668,0.9076717642221191,5,distance,cityblock,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,104.86630623288134,0.9078372929715178,5,distance,nan_euclidean,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,103.9616030774219,0.9086323995682848,15,distance,cosine,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,118.94687188741858,0.8954624597783609,15,distance,euclidean,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,124.34458186888912,0.8907186332670863,15,distance,cityblock,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,118.48362715943787,0.8958695866209194,15,distance,nan_euclidean,0.95,0.85
+high_corr_features_remover + lmax + std + pca + knr,100.99346429061951,0.911240975337326,5,distance,cosine,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,106.07158747206348,0.9067780205920084,5,distance,euclidean,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,106.27579530049915,0.906598550684646,5,distance,cityblock,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,107.79427583655814,0.9052640202544192,5,distance,nan_euclidean,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,104.3484289654644,0.908292434118262,15,distance,cosine,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,118.5565909143168,0.8958054617613133,15,distance,euclidean,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,124.64260556171013,0.8904567124340209,15,distance,cityblock,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,119.5393991226631,0.8949417118284239,15,distance,nan_euclidean,0.95,0.99
+high_corr_features_remover + lmax + std + pca + knr,97.54792424512262,0.914269119544702,5,distance,cosine,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,103.85250140153808,0.9087282845684532,5,distance,euclidean,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,107.13924250490504,0.9058397022557,5,distance,cityblock,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,104.71103595872718,0.9079737536641956,5,distance,nan_euclidean,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,101.97048532484143,0.9103823115150522,15,distance,cosine,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,117.78021620966248,0.896487785731898,15,distance,euclidean,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,123.15187505835556,0.8917668544956091,15,distance,cityblock,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,118.2888995722432,0.896040724732041,15,distance,nan_euclidean,0.99,0.85
+high_corr_features_remover + lmax + std + pca + knr,99.71672153299076,0.9123630523222898,5,distance,cosine,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,105.29492451799996,0.9074605978932082,5,distance,euclidean,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,106.24947295525304,0.9066216843171766,5,distance,cityblock,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,105.24707923601034,0.9075026471544544,5,distance,nan_euclidean,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,103.11775436691882,0.9093740236826094,15,distance,cosine,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,118.03032082076848,0.8962679790196387,15,distance,euclidean,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,122.36169894957636,0.8924613079557376,15,distance,cityblock,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,117.29883924935912,0.8969108482517524,15,distance,nan_euclidean,0.99,0.95
+high_corr_features_remover + lmax + std + pca + knr,101.12059860098827,0.9111292421923274,5,distance,cosine,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,106.04999487736636,0.90679699744025,5,distance,euclidean,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,107.08753123967222,0.9058851491714818,5,distance,cityblock,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,106.65312463178871,0.9062669313699,5,distance,nan_euclidean,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,102.8503758896323,0.9096090116892734,15,distance,cosine,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,117.14501389426938,0.8970460390641684,15,distance,euclidean,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,124.28661435462124,0.8907695785442354,15,distance,cityblock,0.99,0.99
+high_corr_features_remover + lmax + std + pca + knr,117.47531348111734,0.8967557522680769,15,distance,nan_euclidean,0.99,0.99
+high_corr_features_remover + lmax + minmax + knr,99.39193890810404,0.9126484904861828,5,distance,cosine,0.85,
+high_corr_features_remover + lmax + minmax + knr,101.518002289993,0.9107799803457202,5,distance,euclidean,0.85,
+high_corr_features_remover + lmax + minmax + knr,94.37023596502678,0.9170618597918502,5,distance,cityblock,0.85,
+high_corr_features_remover + lmax + minmax + knr,102.51958196241664,0.9098997329408932,5,distance,nan_euclidean,0.85,
+high_corr_features_remover + lmax + minmax + knr,100.8098994283822,0.9114023029860898,15,distance,cosine,0.85,
+high_corr_features_remover + lmax + minmax + knr,114.11974936082132,0.8997048203152277,15,distance,euclidean,0.85,
+high_corr_features_remover + lmax + minmax + knr,106.09015724214696,0.906761700380672,15,distance,cityblock,0.85,
+high_corr_features_remover + lmax + minmax + knr,115.20952110393928,0.8987470645069335,15,distance,nan_euclidean,0.85,
+high_corr_features_remover + lmax + minmax + knr,95.3362284239832,0.9162128885332572,5,distance,cosine,0.99,
+high_corr_features_remover + lmax + minmax + knr,99.09717095860026,0.912907549979622,5,distance,euclidean,0.99,
+high_corr_features_remover + lmax + minmax + knr,91.812004706932,0.9193101846010344,5,distance,cityblock,0.99,
+high_corr_features_remover + lmax + minmax + knr,99.27783259749944,0.9127487738550946,5,distance,nan_euclidean,0.99,
+high_corr_features_remover + lmax + minmax + knr,97.61716628321317,0.9142082655497458,15,distance,cosine,0.99,
+high_corr_features_remover + lmax + minmax + knr,110.88974656450182,0.9025435376507775,15,distance,euclidean,0.99,
+high_corr_features_remover + lmax + minmax + knr,102.43929796094189,0.9099702912658004,15,distance,cityblock,0.99,
+high_corr_features_remover + lmax + minmax + knr,110.6913447175703,0.9027179049184876,15,distance,nan_euclidean,0.99,
+high_corr_features_remover + l2 + minmax + knr,95.71984638307204,0.9158757424007724,5,distance,cosine,0.85,
+high_corr_features_remover + l2 + minmax + knr,100.33751614862022,0.9118174613279996,5,distance,euclidean,0.85,
+high_corr_features_remover + l2 + minmax + knr,93.52255772546066,0.9178068495226228,5,distance,cityblock,0.85,
+high_corr_features_remover + l2 + minmax + knr,100.6083265655486,0.9115794571299668,5,distance,nan_euclidean,0.85,
+high_corr_features_remover + l2 + minmax + knr,98.81432366764196,0.9131561328938756,15,distance,cosine,0.85,
+high_corr_features_remover + l2 + minmax + knr,113.27323326264349,0.9004487886874711,15,distance,euclidean,0.85,
+high_corr_features_remover + l2 + minmax + knr,105.87887195390292,0.9069473903779588,15,distance,cityblock,0.85,
+high_corr_features_remover + l2 + minmax + knr,113.04940669014591,0.9006455007064915,15,distance,nan_euclidean,0.85,
+high_corr_features_remover + l2 + minmax + knr,94.23966462551172,0.917176613601175,5,distance,cosine,0.99,
+high_corr_features_remover + l2 + minmax + knr,98.5368543431558,0.9133999893333808,5,distance,euclidean,0.99,
+high_corr_features_remover + l2 + minmax + knr,92.84399000848184,0.9184032149325002,5,distance,cityblock,0.99,
+high_corr_features_remover + l2 + minmax + knr,99.79384241578153,0.9122952739330076,5,distance,nan_euclidean,0.99,
+high_corr_features_remover + l2 + minmax + knr,95.7850114638115,0.9158184714768656,15,distance,cosine,0.99,
+high_corr_features_remover + l2 + minmax + knr,109.09562035780186,0.904120321785741,15,distance,euclidean,0.99,
+high_corr_features_remover + l2 + minmax + knr,103.25563512396668,0.9092528459252044,15,distance,cityblock,0.99,
+high_corr_features_remover + l2 + minmax + knr,109.25456415835376,0.9039806325809764,15,distance,nan_euclidean,0.99,
+only_properties + high_corr_features_remover + knr,133.14900190023107,0.8829807886432633,5,distance,cosine,0.85,
+only_properties + high_corr_features_remover + knr,137.8450636960664,0.8788536120216698,5,distance,euclidean,0.85,
+only_properties + high_corr_features_remover + knr,115.7001491533317,0.8983158715832914,5,distance,cityblock,0.85,
+only_properties + high_corr_features_remover + knr,138.5632176876639,0.8782224558542928,5,distance,nan_euclidean,0.85,
+only_properties + high_corr_features_remover + knr,134.18884582155113,0.8820669123552672,15,distance,cosine,0.85,
+only_properties + high_corr_features_remover + knr,148.50635201395556,0.8694838418153487,15,distance,euclidean,0.85,
+only_properties + high_corr_features_remover + knr,124.00038478964284,0.8910211340007747,15,distance,cityblock,0.85,
+only_properties + high_corr_features_remover + knr,148.8499582309109,0.8691818603663588,15,distance,nan_euclidean,0.85,
+only_properties + high_corr_features_remover + knr,119.40249119800836,0.8950620346032322,5,distance,cosine,0.99,
+only_properties + high_corr_features_remover + knr,123.24369884659026,0.8916861543241495,5,distance,euclidean,0.99,
+only_properties + high_corr_features_remover + knr,103.27559848198328,0.9092353009464376,5,distance,cityblock,0.99,
+only_properties + high_corr_features_remover + knr,123.58219211666372,0.8913886664350309,5,distance,nan_euclidean,0.99,
+only_properties + high_corr_features_remover + knr,124.94198064578302,0.8901936039184624,15,distance,cosine,0.99,
+only_properties + high_corr_features_remover + knr,138.6252236286865,0.8781679613690593,15,distance,euclidean,0.99,
+only_properties + high_corr_features_remover + knr,117.17979887928794,0.8970154679637032,15,distance,cityblock,0.99,
+only_properties + high_corr_features_remover + knr,138.81836752833675,0.8779982150961404,15,distance,nan_euclidean,0.99,
+only_formula + high_corr_features_remover + knr,99.84183461574511,0.912253095551564,5,distance,cosine,0.85,
+only_formula + high_corr_features_remover + knr,99.10756679587458,0.9128984135034796,5,distance,euclidean,0.85,
+only_formula + high_corr_features_remover + knr,93.69258174742868,0.9176574223644882,5,distance,cityblock,0.85,
+only_formula + high_corr_features_remover + knr,99.70838905093636,0.91237037539993,5,distance,nan_euclidean,0.85,
+only_formula + high_corr_features_remover + knr,104.7884264777074,0.907905738302696,15,distance,cosine,0.85,
+only_formula + high_corr_features_remover + knr,114.5668662449199,0.8993118675749533,15,distance,euclidean,0.85,
+only_formula + high_corr_features_remover + knr,106.23411911295447,0.9066351781811292,15,distance,cityblock,0.85,
+only_formula + high_corr_features_remover + knr,114.10004620637184,0.8997221366117227,15,distance,nan_euclidean,0.85,
+only_formula + high_corr_features_remover + knr,100.00345089158526,0.9121110576175852,5,distance,cosine,0.99,
+only_formula + high_corr_features_remover + knr,99.31325342265154,0.9127176439407448,5,distance,euclidean,0.99,
+only_formula + high_corr_features_remover + knr,93.95634918022184,0.9174256079571208,5,distance,cityblock,0.99,
+only_formula + high_corr_features_remover + knr,99.13931541710822,0.9128705109389436,5,distance,nan_euclidean,0.99,
+only_formula + high_corr_features_remover + knr,104.23158132177176,0.9083951267326916,15,distance,cosine,0.99,
+only_formula + high_corr_features_remover + knr,114.72414265058728,0.8991736437753487,15,distance,euclidean,0.99,
+only_formula + high_corr_features_remover + knr,106.69653149318113,0.9062287828549648,15,distance,cityblock,0.99,
+only_formula + high_corr_features_remover + knr,113.8820234086939,0.8999137479304555,15,distance,nan_euclidean,0.99,

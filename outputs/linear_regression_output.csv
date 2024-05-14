@@ -13,4 +13,20 @@ lmax + std + linear_regression,336.4185840061981,0.7043354676015259,,
 high_corr_features_remover + std + pca + linear_regression,411.5268532079745,0.63832588207758,0.95,0.95
 high_corr_features_remover + lmax + minmax + linear_regression,349.5332133123521,0.6928095563536744,0.95,
 only_properties + linear_regression,311.34273727555615,0.7263736035743427,,
-only_formula + linear_regression,473.25443965363587,0.5840760312958331,,
+only_formula + linear_regression,473.2544396536359,0.5840760312958331,,
+high_corr_features_remover + minmax + linear_regression,339.54357238913263,0.7015890431383222,0.85,
+high_corr_features_remover + minmax + linear_regression,280.3980394342622,0.7535696327250083,0.99,
+std + pca + linear_regression,413.4497813106356,0.6366358992248531,,0.85
+std + pca + linear_regression,338.6932346495557,0.7023363701948684,,0.99
+l2 + std + pca + linear_regression,476.0207496859593,0.5816448345633688,,0.85
+l2 + std + pca + linear_regression,356.278005235382,0.6868818346258792,,0.99
+high_corr_features_remover + std + pca + linear_regression,422.2166363518558,0.6289310689342653,0.85,0.85
+high_corr_features_remover + std + pca + linear_regression,416.3460963473719,0.6340904464118196,0.85,0.95
+high_corr_features_remover + std + pca + linear_regression,377.58732590029246,0.6681539443438018,0.85,0.99
+high_corr_features_remover + std + pca + linear_regression,414.4265585621261,0.63577744965325,0.95,0.85
+high_corr_features_remover + std + pca + linear_regression,338.03723542929805,0.702912901076134,0.95,0.99
+high_corr_features_remover + std + pca + linear_regression,413.31689940798975,0.6367526836936006,0.99,0.85
+high_corr_features_remover + std + pca + linear_regression,408.3663428092029,0.6411035253874873,0.99,0.95
+high_corr_features_remover + std + pca + linear_regression,334.5391458267856,0.7059872289396498,0.99,0.99
+high_corr_features_remover + lmax + minmax + linear_regression,411.99608245999855,0.6379134956816346,0.85,
+high_corr_features_remover + lmax + minmax + linear_regression,336.1916726218926,0.7045348907354612,0.99,

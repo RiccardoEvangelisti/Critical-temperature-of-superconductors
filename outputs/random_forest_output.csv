@@ -736,4 +736,132 @@ only_formula + lmax + minmax + random_forest,88.61592439037355,0.922119088856709
 only_formula + lmax + minmax + random_forest,89.2680006513873,0.921546005703856,0.66,squared_error,200,25,0.6,,,,,0.0
 only_formula + lmax + minmax + random_forest,90.41597085995494,0.920537101644866,0.66,squared_error,200,25,0.6,,,,,0.01
 only_formula + lmax + minmax + random_forest,90.35514179113208,0.9205905618252626,0.66,squared_error,200,25,0.8,,,,,0.0
-only_formula + lmax + minmax + random_forest,91.31370105699574,0.9197481232960267,0.66,squared_error,200,25,0.8,,,,,0.01
+only_formula + lmax + minmax + random_forest,91.31370105699574,0.9197481232960268,0.66,squared_error,200,25,0.8,,,,,0.01
+high_corr_features_remover + minmax + random_forest,84.77316177245679,0.925496335734735,0.66,squared_error,200,25,0.2,,0.85,,,0.0
+high_corr_features_remover + minmax + random_forest,86.01602307174079,0.9244040357776012,0.66,squared_error,200,25,0.2,,0.85,,,0.01
+high_corr_features_remover + minmax + random_forest,84.70602682814011,0.9255553378911636,0.66,squared_error,200,25,0.4,,0.85,,,0.0
+high_corr_features_remover + minmax + random_forest,85.70636472919232,0.9246761818284008,0.66,squared_error,200,25,0.4,,0.85,,,0.01
+high_corr_features_remover + minmax + random_forest,86.63701530045357,0.9238582711092556,0.66,squared_error,200,25,0.6,,0.85,,,0.0
+high_corr_features_remover + minmax + random_forest,87.6404430007935,0.922976399548286,0.66,squared_error,200,25,0.6,,0.85,,,0.01
+high_corr_features_remover + minmax + random_forest,87.70316012170642,0.9229212800361376,0.66,squared_error,200,25,0.8,,0.85,,,0.0
+high_corr_features_remover + minmax + random_forest,88.774387729363,0.9219798219099592,0.66,squared_error,200,25,0.8,,0.85,,,0.01
+high_corr_features_remover + minmax + random_forest,83.36979014513638,0.926729701653561,0.66,squared_error,200,25,0.2,,0.99,,,0.0
+high_corr_features_remover + minmax + random_forest,84.31767122171927,0.9258966477480964,0.66,squared_error,200,25,0.2,,0.99,,,0.01
+high_corr_features_remover + minmax + random_forest,84.02380527657358,0.9261549145068012,0.66,squared_error,200,25,0.4,,0.99,,,0.0
+high_corr_features_remover + minmax + random_forest,85.01719149647387,0.925281867992247,0.66,squared_error,200,25,0.4,,0.99,,,0.01
+high_corr_features_remover + minmax + random_forest,83.82797286295317,0.9263270236046758,0.66,squared_error,200,25,0.6,,0.99,,,0.0
+high_corr_features_remover + minmax + random_forest,84.7171348977138,0.9255455754631868,0.66,squared_error,200,25,0.6,,0.99,,,0.01
+high_corr_features_remover + minmax + random_forest,84.83461655328676,0.92544232564165,0.66,squared_error,200,25,0.8,,0.99,,,0.0
+high_corr_features_remover + minmax + random_forest,85.7656408988027,0.9246240864276012,0.66,squared_error,200,25,0.8,,0.99,,,0.01
+std + pca + random_forest,106.70526888189168,0.906221103921427,0.66,squared_error,200,25,0.2,0.85,,,,0.0
+std + pca + random_forest,107.77919198517888,0.905277276834397,0.66,squared_error,200,25,0.2,0.85,,,,0.01
+std + pca + random_forest,103.334754664155,0.90918331099769,0.66,squared_error,200,25,0.4,0.85,,,,0.0
+std + pca + random_forest,104.40518512938552,0.9082425534473828,0.66,squared_error,200,25,0.4,0.85,,,,0.01
+std + pca + random_forest,104.2565066552086,0.908373220876696,0.66,squared_error,200,25,0.6,0.85,,,,0.0
+std + pca + random_forest,105.403071745677,0.9073655517185274,0.66,squared_error,200,25,0.6,0.85,,,,0.01
+std + pca + random_forest,102.60212655335728,0.9098271878763732,0.66,squared_error,200,25,0.8,0.85,,,,0.0
+std + pca + random_forest,103.79917715529103,0.90877514906727,0.66,squared_error,200,25,0.8,0.85,,,,0.01
+std + pca + random_forest,105.92705438736962,0.9069050448080704,0.66,squared_error,200,25,0.2,0.99,,,,0.0
+std + pca + random_forest,106.97801101508745,0.9059814020169829,0.66,squared_error,200,25,0.2,0.99,,,,0.01
+std + pca + random_forest,102.61404681205612,0.9098167116485968,0.66,squared_error,200,25,0.4,0.99,,,,0.0
+std + pca + random_forest,103.60508195096726,0.9089457314029538,0.66,squared_error,200,25,0.4,0.99,,,,0.01
+std + pca + random_forest,101.69637078752704,0.9106232195693384,0.66,squared_error,200,25,0.6,0.99,,,,0.0
+std + pca + random_forest,102.66083121550255,0.9097755947501076,0.66,squared_error,200,25,0.6,0.99,,,,0.01
+std + pca + random_forest,103.0097363434415,0.9094689563050042,0.66,squared_error,200,25,0.8,0.99,,,,0.0
+std + pca + random_forest,104.01274368085012,0.9085874541838204,0.66,squared_error,200,25,0.8,0.99,,,,0.01
+l2 + std + pca + random_forest,104.86172138680692,0.9078413224051912,0.66,squared_error,200,25,0.2,0.85,,,,0.0
+l2 + std + pca + random_forest,106.00712176320012,0.9068346768665811,0.66,squared_error,200,25,0.2,0.85,,,,0.01
+l2 + std + pca + random_forest,101.81934224803058,0.9105151449828064,0.66,squared_error,200,25,0.4,0.85,,,,0.0
+l2 + std + pca + random_forest,103.05730070802797,0.9094271539305728,0.66,squared_error,200,25,0.4,0.85,,,,0.01
+l2 + std + pca + random_forest,101.5144888563351,0.9107830681588462,0.66,squared_error,200,25,0.6,0.85,,,,0.0
+l2 + std + pca + random_forest,102.65131282184404,0.9097839600769474,0.66,squared_error,200,25,0.6,0.85,,,,0.01
+l2 + std + pca + random_forest,102.94862738860397,0.9095226624657704,0.66,squared_error,200,25,0.8,0.85,,,,0.0
+l2 + std + pca + random_forest,103.97270376436616,0.9086226436285992,0.66,squared_error,200,25,0.8,0.85,,,,0.01
+l2 + std + pca + random_forest,103.97859882035866,0.9086174627050226,0.66,squared_error,200,25,0.2,0.99,,,,0.0
+l2 + std + pca + random_forest,105.06178188730634,0.907665497414707,0.66,squared_error,200,25,0.2,0.99,,,,0.01
+l2 + std + pca + random_forest,99.65354857867592,0.9124185724477696,0.66,squared_error,200,25,0.4,0.99,,,,0.0
+l2 + std + pca + random_forest,100.69037387881689,0.911507349102452,0.66,squared_error,200,25,0.4,0.99,,,,0.01
+l2 + std + pca + random_forest,100.82054172007705,0.9113929499112384,0.66,squared_error,200,25,0.6,0.99,,,,0.0
+l2 + std + pca + random_forest,101.74441681650391,0.9105809938797768,0.66,squared_error,200,25,0.6,0.99,,,,0.01
+l2 + std + pca + random_forest,101.94841017030492,0.9104017124653978,0.66,squared_error,200,25,0.8,0.99,,,,0.0
+l2 + std + pca + random_forest,102.93089837792438,0.9095382437680578,0.66,squared_error,200,25,0.8,0.99,,,,0.01
+high_corr_features_remover + std + pca + random_forest,107.30312448255124,0.9056956730890816,0.66,squared_error,200,25,0.2,0.85,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,108.59473516374042,0.9045605292942678,0.66,squared_error,200,25,0.2,0.85,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.71525967393316,0.9079700416136708,0.66,squared_error,200,25,0.4,0.85,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.9554319967903,0.9068801048879268,0.66,squared_error,200,25,0.4,0.85,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.98154067890822,0.9077360181305296,0.66,squared_error,200,25,0.6,0.85,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,106.1546217080735,0.9067050451984656,0.66,squared_error,200,25,0.6,0.85,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,106.6911126050865,0.9062335452940536,0.66,squared_error,200,25,0.8,0.85,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,107.86901099128023,0.9051983385839496,0.66,squared_error,200,25,0.8,0.85,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,106.90003439763868,0.9060499324764524,0.66,squared_error,200,25,0.2,0.95,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,108.19956289266516,0.9049078300389324,0.66,squared_error,200,25,0.2,0.95,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.7974666818436,0.9078977932370672,0.66,squared_error,200,25,0.4,0.95,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.9468127066707,0.906887680029444,0.66,squared_error,200,25,0.4,0.95,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.84376543591624,0.907857103155947,0.66,squared_error,200,25,0.6,0.95,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.8227574181832,0.9069967071480576,0.66,squared_error,200,25,0.6,0.95,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,106.68217312118064,0.9062414018407918,0.66,squared_error,200,25,0.8,0.95,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,107.77132725163236,0.9052841888270068,0.66,squared_error,200,25,0.8,0.95,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,106.3879655116217,0.9064999688743738,0.66,squared_error,200,25,0.2,0.99,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,107.49805535349918,0.9055243563201846,0.66,squared_error,200,25,0.2,0.99,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.37967616004728,0.9082649722370988,0.66,squared_error,200,25,0.4,0.99,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.49934322481442,0.9072809426534648,0.66,squared_error,200,25,0.4,0.99,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.13481801276096,0.9084801680469118,0.66,squared_error,200,25,0.6,0.99,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.26390646866427,0.9074878583879868,0.66,squared_error,200,25,0.6,0.99,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,105.92740490921608,0.9069047367487576,0.66,squared_error,200,25,0.8,0.99,0.85,,,0.0
+high_corr_features_remover + std + pca + random_forest,106.88461443233402,0.9060634844532104,0.66,squared_error,200,25,0.8,0.99,0.85,,,0.01
+high_corr_features_remover + std + pca + random_forest,105.27099278356528,0.9074816305156836,0.66,squared_error,200,25,0.2,0.85,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,106.32985121871332,0.9065510431492662,0.66,squared_error,200,25,0.2,0.85,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,100.0349397206624,0.9120833833737488,0.66,squared_error,200,25,0.4,0.85,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,101.04430927021332,0.9111962897645572,0.66,squared_error,200,25,0.4,0.85,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,100.0871378087806,0.9120375086092464,0.66,squared_error,200,25,0.6,0.85,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,101.2262298158264,0.911036407238414,0.66,squared_error,200,25,0.6,0.85,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,101.49554891730352,0.9107997136965296,0.66,squared_error,200,25,0.8,0.85,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,102.6572052029455,0.9097787815042232,0.66,squared_error,200,25,0.8,0.85,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,101.25333970315988,0.9110125814673572,0.66,squared_error,200,25,0.2,0.99,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,102.29003147421996,0.910101475475287,0.66,squared_error,200,25,0.2,0.99,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,98.47017712952056,0.9134585892090368,0.66,squared_error,200,25,0.4,0.99,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,99.41934937835931,0.9126244005450912,0.66,squared_error,200,25,0.4,0.99,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,97.68160609123208,0.9141516320383656,0.66,squared_error,200,25,0.6,0.99,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,98.8412896139811,0.9131324336266708,0.66,squared_error,200,25,0.6,0.99,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,98.89800411111088,0.91308258957503,0.66,squared_error,200,25,0.8,0.99,0.95,,,0.0
+high_corr_features_remover + std + pca + random_forest,99.82001826244245,0.9122722690520912,0.66,squared_error,200,25,0.8,0.99,0.95,,,0.01
+high_corr_features_remover + std + pca + random_forest,107.63301814940702,0.9054057430394672,0.66,squared_error,200,25,0.2,0.85,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,108.69055156979924,0.9044763201743192,0.66,squared_error,200,25,0.2,0.85,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.83424653177748,0.9078654689314272,0.66,squared_error,200,25,0.4,0.85,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.91207877723514,0.9069182062592456,0.66,squared_error,200,25,0.4,0.85,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.81667065734756,0.9078809156485286,0.66,squared_error,200,25,0.6,0.85,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.91494531954724,0.9069156869724624,0.66,squared_error,200,25,0.6,0.85,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,106.95252632484296,0.9060037994687964,0.66,squared_error,200,25,0.8,0.85,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,107.97953383697303,0.9051012045757684,0.66,squared_error,200,25,0.8,0.85,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,105.50330382439158,0.9072774618445032,0.66,squared_error,200,25,0.2,0.95,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,106.64708192354644,0.9062722420589994,0.66,squared_error,200,25,0.2,0.95,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,103.72404259104418,0.9088411817624336,0.66,squared_error,200,25,0.4,0.95,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,104.80598749144896,0.9078903046460456,0.66,squared_error,200,25,0.4,0.95,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,104.30818291611232,0.908327804724787,0.66,squared_error,200,25,0.6,0.95,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,105.30431510459783,0.907452344890766,0.66,squared_error,200,25,0.6,0.95,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,106.0430435672668,0.9068031066623558,0.66,squared_error,200,25,0.8,0.95,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,106.95142840128617,0.9060047643889002,0.66,squared_error,200,25,0.8,0.95,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,105.99536902155918,0.9068450058704676,0.66,squared_error,200,25,0.2,0.99,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,107.05574627742068,0.9059130836746518,0.66,squared_error,200,25,0.2,0.99,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,103.0125602772666,0.9094664744650772,0.66,squared_error,200,25,0.4,0.99,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,104.04961842867984,0.9085550464763014,0.66,squared_error,200,25,0.4,0.99,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,103.58680250174844,0.9089617964631576,0.66,squared_error,200,25,0.6,0.99,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,104.72004509155347,0.90796583590587,0.66,squared_error,200,25,0.6,0.99,0.99,,,0.01
+high_corr_features_remover + std + pca + random_forest,102.97497973099864,0.9094995024699732,0.66,squared_error,200,25,0.8,0.99,0.99,,,0.0
+high_corr_features_remover + std + pca + random_forest,103.93130812764105,0.9086590245604428,0.66,squared_error,200,25,0.8,0.99,0.99,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,85.89517235816433,0.9245102465264076,0.66,squared_error,200,25,0.2,,0.85,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,87.15131156189338,0.9234062771621848,0.66,squared_error,200,25,0.2,,0.85,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,85.90481554535133,0.92450177152364,0.66,squared_error,200,25,0.4,,0.85,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,87.10482058443746,0.9234471361805738,0.66,squared_error,200,25,0.4,,0.85,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,86.08605916180645,0.9243424839228443,0.66,squared_error,200,25,0.6,,0.85,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,87.20041704481507,0.9233631203618876,0.66,squared_error,200,25,0.6,,0.85,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,85.76539265044978,0.924624304602924,0.66,squared_error,200,25,0.8,,0.85,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,86.87246285783968,0.9236513458819692,0.66,squared_error,200,25,0.8,,0.85,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,83.84600021430228,0.9263111801029776,0.66,squared_error,200,25,0.2,,0.99,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,84.84305486081998,0.925434909558325,0.66,squared_error,200,25,0.2,,0.99,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,82.53644281722246,0.9274620965322836,0.66,squared_error,200,25,0.4,,0.99,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,83.43198136118724,0.926675044337684,0.66,squared_error,200,25,0.4,,0.99,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,82.13034288857774,0.9278190011481936,0.66,squared_error,200,25,0.6,,0.99,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,83.02853756016067,0.9270296145916784,0.66,squared_error,200,25,0.6,,0.99,,,0.01
+high_corr_features_remover + lmax + minmax + random_forest,83.2836469832005,0.9268054093549306,0.66,squared_error,200,25,0.8,,0.99,,,0.0
+high_corr_features_remover + lmax + minmax + random_forest,84.1664020436485,0.92602959204109,0.66,squared_error,200,25,0.8,,0.99,,,0.01
