@@ -67,7 +67,7 @@ class Combination:
         Returns the Combination as Pandas DataFrame, with the tag name and None parameters as 'None' string
     """
 
-    def __init__(self, tag, pipeline, parameters):
+    def __init__(self, tag, pipeline: Pipeline, parameters):
         self.pipeline = pipeline
         self.tag = tag
         self.parameters = parameters

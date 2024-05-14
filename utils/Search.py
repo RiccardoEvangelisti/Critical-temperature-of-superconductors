@@ -37,6 +37,9 @@ def grid_search(
         - Check if the combination is already been tested (present in the output dataset)
         - If not: start the search with the Pipeline and the parameters of the Configuration instance, with a 3-folds Cross-Validation
         - Save the configuration with the MSE and R2 metrics, comparing the target predictions and test values
+
+    ## Returns
+    The last executed (best) estimator. Useful when is tested only one combination.
     """
 
     # Iterate over *all* combinations
@@ -75,6 +78,8 @@ def grid_search(
                 if not outputs.empty:
                     results = pd.concat([outputs, results], axis=0)
             results.to_csv(file_name, index=False)
+
+    return gs.best_estimator_
 
 
 def best_hyperparameters(file_name, percentage):
