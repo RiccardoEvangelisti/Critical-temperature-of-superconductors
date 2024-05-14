@@ -17,23 +17,24 @@ Develop machine learning algorithms that allow to establish a relationship betwe
 ### 1. Dataset Description
 The dataset comes from a database of superconducting materials compiled by Japan's National Institute of Materials Science (NIMS).
 
-See [0_Data_Exploration.ipynb](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/0_Data_Exploration.ipynb)
+See [0_Data_Exploration](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/0_Data_Exploration.ipynb) notebook.
 
 ### 2. Models Training
 Different models are trained:
-    - Linear Regression
-    - Random Forest
-    - XGBoost
-    - KNN
-    - SVM
-Using several preprocessing configurations and combinations:
-    - StandardScaler, MinMaxScaler
-    - Normalizer L1, L2, Max
-    - PCA
-    - Train only on Properties or Formula dataset
-    - Removing high correlated features
+- Linear Regression
+- Random Forest
+- XGBoost
+- KNN
+- SVM
 
-See [1_Training.ipynb](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/1_Training.ipynb)
+Using several preprocessing configurations and combinations:
+- Removing high correlated features
+- StandardScaler, MinMaxScaler
+- Normalizer L1, L2, Max
+- PCA
+- Train only on Properties or Formula dataset
+
+See [1_Training](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/1_Training.ipynb) notebook.
 
 ### 3. Explainability
 

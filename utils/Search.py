@@ -79,7 +79,8 @@ def grid_search(
                     results = pd.concat([outputs, results], axis=0)
             results.to_csv(file_name, index=False)
 
-    return gs.best_estimator_
+    if save_results == False:
+        return gs.best_estimator_
 
 
 def best_hyperparameters(file_name, percentage):
@@ -111,4 +112,5 @@ def print_results(file_name, head):
         .sort_values(by="R2", ascending=False)
         .head(head)
         .style.format(precision=4)
+        .set_caption("R2 sorted")
     )
