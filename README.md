@@ -14,12 +14,12 @@ Although superconductivity was discovered more than a century ago, many of its p
 Develop machine learning algorithms that allow to establish a relationship between the chemical composition, various properties of superconductors, and their critical temperature.
 
 
-### (1) Dataset Description
+### 1. Dataset Description
 The dataset comes from a database of superconducting materials compiled by Japan's National Institute of Materials Science (NIMS).
 
 See [0_Data_Exploration.ipynb](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/0_Data_Exploration.ipynb)
 
-### (2) Models Training
+### 2. Models Training
 Different models are trained:
     - Linear Regression
     - Random Forest
@@ -35,7 +35,7 @@ Using several preprocessing configurations and combinations:
 
 See [1_Training.ipynb](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/1_Training.ipynb)
 
-### (3) Explainability
+### 3. Explainability
 
 
 ### Results
