@@ -36,7 +36,7 @@ Using several preprocessing configurations and combinations:
 
 See [1_Training](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/1_Training.ipynb) notebook.
 
-### 3. Explainability
+### 3. Relationship between Critical Temperature and other features
 
 
 ### Results
