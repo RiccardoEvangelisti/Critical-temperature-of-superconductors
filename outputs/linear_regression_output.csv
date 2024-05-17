@@ -30,3 +30,12 @@ high_corr_features_remover + std + pca + linear_regression,408.3663428092029,0.6
 high_corr_features_remover + std + pca + linear_regression,334.5391458267856,0.7059872289396498,0.99,0.99
 high_corr_features_remover + lmax + minmax + linear_regression,411.99608245999855,0.6379134956816346,0.85,
 high_corr_features_remover + lmax + minmax + linear_regression,336.1916726218926,0.7045348907354612,0.99,
+l1 + high_corr_features_remover + minmax + linear_regression,338.49724807418147,0.7025086147792023,0.85,
+l1 + high_corr_features_remover + minmax + linear_regression,300.97512558828925,0.7354852734027497,0.95,
+l1 + high_corr_features_remover + minmax + linear_regression,286.65468169027486,0.7480709257719631,0.99,
+l2 + high_corr_features_remover + minmax + linear_regression,353.4246749895232,0.6893895098644882,0.85,
+l2 + high_corr_features_remover + minmax + linear_regression,312.32883767304605,0.7255069602710809,0.95,
+l2 + high_corr_features_remover + minmax + linear_regression,295.28871025689625,0.7404828312366798,0.99,
+lmax + high_corr_features_remover + minmax + linear_regression,414.3240562574383,0.6358675347360192,0.85,
+lmax + high_corr_features_remover + minmax + linear_regression,352.3000969432604,0.6903778555088766,0.95,
+lmax + high_corr_features_remover + minmax + linear_regression,332.20170684852724,0.7080415084455169,0.99,
