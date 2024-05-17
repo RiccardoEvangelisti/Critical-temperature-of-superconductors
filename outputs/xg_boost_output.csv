@@ -1936,3 +1936,136 @@ l2 + high_corr_features_remover + std + pca + xg_boost,99.53866270943684,0.91251
 l2 + high_corr_features_remover + std + pca + xg_boost,99.53866270943684,0.9125195409388772,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.95,auto
 l2 + high_corr_features_remover + std + pca + xg_boost,103.06472325522996,0.9094206305574536,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.95,exact
 l2 + high_corr_features_remover + std + pca + xg_boost,99.7850827932866,0.9123029724069092,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.95,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,99.7850827932866,0.9123029724069092,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.95,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,97.89826422885118,0.9139612200635376,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.99,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,99.92455384861204,0.9121803970013984,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.99,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,99.92455384861204,0.9121803970013984,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.99,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,98.5552448661949,0.9133838266549396,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.99,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,98.4982958358811,0.9134338768282022,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.99,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,98.4982958358811,0.9134338768282022,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.99,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,105.11306532470518,0.9076204264993084,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.85,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,101.86297315330252,0.91047679956487,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.85,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,101.86297315330252,0.91047679956487,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.85,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,104.16678378719912,0.9084520746353067,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.85,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,102.32924200767044,0.9100670149413304,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.85,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,102.32924200767044,0.9100670149413304,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.85,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,102.07011096747256,0.9102947546128958,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.95,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,100.22660088672266,0.9119149402147316,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.95,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,100.22660088672266,0.9119149402147316,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.95,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,102.17829041238107,0.910199680123808,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.95,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,101.35688518613776,0.9109215795778596,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.95,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,101.35688518613776,0.9109215795778596,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.95,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,98.10939110785726,0.9137756692856503,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.99,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,96.11461171143044,0.915528799301416,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.99,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,96.11461171143044,0.915528799301416,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.99,auto
+l2 + high_corr_features_remover + std + pca + xg_boost,98.2141836660112,0.913683571392792,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.99,exact
+l2 + high_corr_features_remover + std + pca + xg_boost,96.9719427490856,0.9147753261212472,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.99,approx
+l2 + high_corr_features_remover + std + pca + xg_boost,96.9719427490856,0.9147753261212472,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.99,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,102.684013942248,0.9097552203998522,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.85,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,100.02518126905908,0.912091959677697,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.85,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,100.02518126905908,0.912091959677697,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.85,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,102.88649521367844,0.9095772678928176,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.85,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,99.50089473878872,0.9125527336633944,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.85,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,99.50089473878872,0.9125527336633944,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.85,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,103.1943498026428,0.9093067070872612,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.95,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,98.66628026757724,0.913286242182529,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.95,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,98.66628026757724,0.913286242182529,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.95,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,103.2763750918757,0.9092346184157702,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.95,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,99.4076601865028,0.9126346736976716,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.95,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,99.4076601865028,0.9126346736976716,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.95,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,98.38997671541576,0.9135290740724236,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.99,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,94.38356147306772,0.9170501485479082,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.99,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,94.38356147306772,0.9170501485479082,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,0.99,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,99.29720437003482,0.9127317487966088,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.99,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,92.9952394011266,0.9182702880281082,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.99,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,92.9952394011266,0.9182702880281082,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,0.99,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,104.62370183471016,0.9080505080534224,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.85,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,101.34636065833035,0.9109308291548476,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.85,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,101.34636065833035,0.9109308291548476,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.85,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,104.49598388179024,0.9081627541379856,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.85,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,100.032633358709,0.9120854103409288,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.85,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,100.032633358709,0.9120854103409288,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.85,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,101.91269871525826,0.9104330978024738,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.95,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,99.70706400218494,0.912371539931077,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.95,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,99.70706400218494,0.912371539931077,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.95,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,102.81359912142932,0.9096413332865062,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.95,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,98.63252437704612,0.913315908853944,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.95,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,98.63252437704612,0.913315908853944,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.95,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,104.9111239960919,0.907797904472687,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.99,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,97.36863837743682,0.9144266865601854,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.99,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,97.36863837743682,0.9144266865601854,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,0.99,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,102.85949734581838,0.9096009952145416,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.99,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,98.17055313418568,0.9137219164825215,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.99,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,98.17055313418568,0.9137219164825215,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,0.99,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,102.1178593536912,0.9102527905093792,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.85,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,95.49234027778388,0.9160756882106526,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.85,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,95.49234027778388,0.9160756882106526,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.85,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,100.9375756327227,0.9112900935926456,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.85,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,96.05759351759744,0.9155789102596666,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.85,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,96.05759351759744,0.9155789102596666,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.85,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,103.14253837849532,0.9093522420286162,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.95,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,98.7381583778961,0.9132230714515186,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.95,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,98.7381583778961,0.9132230714515186,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.95,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,101.86758186056714,0.9104727491605726,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.95,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,98.8194673669118,0.9131516123069884,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.95,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,98.8194673669118,0.9131516123069884,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.95,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,97.98946218993754,0.9138810699059596,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.99,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,95.97124166622557,0.915654801369645,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.99,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,95.97124166622557,0.915654801369645,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,0.99,auto
+lmax + high_corr_features_remover + std + pca + xg_boost,96.00628844630272,0.9156240001882116,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.99,exact
+lmax + high_corr_features_remover + std + pca + xg_boost,95.72616856488024,0.915870186093788,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.99,approx
+lmax + high_corr_features_remover + std + pca + xg_boost,95.72616856488024,0.915870186093788,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,0.99,auto
+l1 + high_corr_features_remover + minmax + xg_boost,88.94859573876032,0.9218267176164175,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,exact
+l1 + high_corr_features_remover + minmax + xg_boost,90.11506514364667,0.9208015553704862,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,approx
+l1 + high_corr_features_remover + minmax + xg_boost,90.11506514364667,0.9208015553704862,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,auto
+l1 + high_corr_features_remover + minmax + xg_boost,88.04489113626444,0.9226209466258304,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,exact
+l1 + high_corr_features_remover + minmax + xg_boost,89.32976757617185,0.9214917212802174,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,approx
+l1 + high_corr_features_remover + minmax + xg_boost,89.32976757617185,0.9214917212802174,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,auto
+l1 + high_corr_features_remover + minmax + xg_boost,87.44797953464008,0.9231455478160376,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,exact
+l1 + high_corr_features_remover + minmax + xg_boost,84.55112504889313,0.9256914747287406,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,approx
+l1 + high_corr_features_remover + minmax + xg_boost,84.55112504889313,0.9256914747287406,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,auto
+l1 + high_corr_features_remover + minmax + xg_boost,88.64092352469629,0.922097118140134,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,exact
+l1 + high_corr_features_remover + minmax + xg_boost,84.90705973502817,0.9253786582924804,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,approx
+l1 + high_corr_features_remover + minmax + xg_boost,84.90705973502817,0.9253786582924804,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,auto
+l1 + high_corr_features_remover + minmax + xg_boost,87.25532944390822,0.9233148601004972,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,exact
+l1 + high_corr_features_remover + minmax + xg_boost,88.01812640941924,0.9226444690494529,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,approx
+l1 + high_corr_features_remover + minmax + xg_boost,88.01812640941924,0.9226444690494529,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,auto
+l1 + high_corr_features_remover + minmax + xg_boost,85.86403036245109,0.9245376159525872,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,exact
+l1 + high_corr_features_remover + minmax + xg_boost,87.90705767111515,0.9227420828203204,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,approx
+l1 + high_corr_features_remover + minmax + xg_boost,87.90705767111515,0.9227420828203204,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,auto
+l2 + high_corr_features_remover + minmax + xg_boost,86.79910729943767,0.9237158150816652,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,exact
+l2 + high_corr_features_remover + minmax + xg_boost,85.42796689565556,0.9249208542965304,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,approx
+l2 + high_corr_features_remover + minmax + xg_boost,85.42796689565556,0.9249208542965304,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,auto
+l2 + high_corr_features_remover + minmax + xg_boost,87.16451581665692,0.9233946724827888,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,exact
+l2 + high_corr_features_remover + minmax + xg_boost,85.29333563167685,0.9250391762073964,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,approx
+l2 + high_corr_features_remover + minmax + xg_boost,85.29333563167685,0.9250391762073964,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,auto
+l2 + high_corr_features_remover + minmax + xg_boost,85.24189785598021,0.9250843827644118,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,exact
+l2 + high_corr_features_remover + minmax + xg_boost,84.5431226578704,0.9256985077028754,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,approx
+l2 + high_corr_features_remover + minmax + xg_boost,84.5431226578704,0.9256985077028754,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,auto
+l2 + high_corr_features_remover + minmax + xg_boost,85.88200008100551,0.9245218231019948,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,exact
+l2 + high_corr_features_remover + minmax + xg_boost,84.310695613659,0.9259027783246858,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,approx
+l2 + high_corr_features_remover + minmax + xg_boost,84.310695613659,0.9259027783246858,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,auto
+l2 + high_corr_features_remover + minmax + xg_boost,86.57266922333105,0.9239148222443848,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,exact
+l2 + high_corr_features_remover + minmax + xg_boost,85.13366768339677,0.925179501835978,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,approx
+l2 + high_corr_features_remover + minmax + xg_boost,85.13366768339677,0.925179501835978,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,auto
+l2 + high_corr_features_remover + minmax + xg_boost,87.03137629307693,0.9235116833640375,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,exact
+l2 + high_corr_features_remover + minmax + xg_boost,85.09993172463487,0.9252091509901764,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,approx
+l2 + high_corr_features_remover + minmax + xg_boost,85.09993172463487,0.9252091509901764,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,auto
+lmax + high_corr_features_remover + minmax + xg_boost,83.62787644589687,0.9265028801607526,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,exact
+lmax + high_corr_features_remover + minmax + xg_boost,85.76148095267028,0.924627742434096,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,approx
+lmax + high_corr_features_remover + minmax + xg_boost,85.76148095267028,0.924627742434096,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.85,,auto
+lmax + high_corr_features_remover + minmax + xg_boost,84.10714507240554,0.9260816705692296,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,exact
+lmax + high_corr_features_remover + minmax + xg_boost,85.95490974758951,0.9244577457783788,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,approx
+lmax + high_corr_features_remover + minmax + xg_boost,85.95490974758951,0.9244577457783788,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.85,,auto
+lmax + high_corr_features_remover + minmax + xg_boost,81.76516192274045,0.9281399437614684,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,exact
+lmax + high_corr_features_remover + minmax + xg_boost,83.18642510820695,0.9268908536840356,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,approx
+lmax + high_corr_features_remover + minmax + xg_boost,83.18642510820695,0.9268908536840356,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.95,,auto
+lmax + high_corr_features_remover + minmax + xg_boost,83.45503696464323,0.926654781710888,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,exact
+lmax + high_corr_features_remover + minmax + xg_boost,82.0628942347323,0.9278782790110948,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,approx
+lmax + high_corr_features_remover + minmax + xg_boost,82.0628942347323,0.9278782790110948,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.95,,auto
+lmax + high_corr_features_remover + minmax + xg_boost,80.91647249718696,0.9288858221822432,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,exact
+lmax + high_corr_features_remover + minmax + xg_boost,81.15788803342261,0.9286736519424637,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,approx
+lmax + high_corr_features_remover + minmax + xg_boost,81.15788803342261,0.9286736519424637,450,0.15,6,3,0.0,1.0,1.0,1.0,0.1,0.99,,auto
+lmax + high_corr_features_remover + minmax + xg_boost,80.63406237216084,0.9291340208892412,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,exact
+lmax + high_corr_features_remover + minmax + xg_boost,81.40056757711945,0.9284603708182304,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,approx
+lmax + high_corr_features_remover + minmax + xg_boost,81.40056757711945,0.9284603708182304,450,0.15,6,3,0.5,1.0,1.0,1.0,0.1,0.99,,auto
