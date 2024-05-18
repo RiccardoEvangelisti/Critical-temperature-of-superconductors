@@ -44,7 +44,7 @@ To investigate on the relationship between critical temperature and other featur
 
 See [2_Features_Importance](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/2_Features_Importance.ipynb) notebook.
 
-### Results
+## 4. Results
 
 |   |   |
 |---|---|
