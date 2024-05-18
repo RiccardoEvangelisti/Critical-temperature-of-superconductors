@@ -45,3 +45,12 @@ To investigate on the relationship between critical temperature and other featur
 See [2_Features_Importance](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/2_Features_Importance.ipynb) notebook.
 
 ### Results
+
+|   |   |
+|---|---|
+|Best Model| **XGBoost**|
+|Preprocessing| **None**|
+| R^2| **0.931** |
+| MSE | **78.09** |
+
+Mainly looking at the *Feature Permutation* of the XGBoost model, the most "important" features are: ***Cu, Ca, Ba, O, range_ThermalConductivity, Valence***
