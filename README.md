@@ -54,3 +54,5 @@ See [2_Features_Importance](https://github.com/RiccardoEvangelisti/Evangelisti-C
 | MSE | **78.09** |
 
 Mainly looking at the *Feature Permutation* of the XGBoost model, the most "important" features are: ***Cu, Ca, Ba, O, range_ThermalConductivity, Valence***
+
+See [3_Results](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/3_Results.ipynb) notebook.
