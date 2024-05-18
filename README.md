@@ -2,7 +2,7 @@
 
 Kaggle Competition available [here](https://www.kaggle.com/competitions/critical-temperature-of-superconductors/overview).
 
-### Description
+## Problem Description
 The phenomenon of superconductivity ([Wikipedia](https://en.wikipedia.org/wiki/Superconductivity)) was discovered by Heike Kamerlingh-Onnes in 1911.
 
 Superconductivity is a property of certain substances and materials whose *electrical resistance* drops to zero when the temperature drops to a certain level. Superconductivity occurs in a spike when the temperature drops. The temperature at which the spike occurs is called the **critical temperature**.
@@ -10,16 +10,16 @@ Superconductivity is a property of certain substances and materials whose *elect
 Although superconductivity was discovered more than a century ago, many of its properties are poorly understood, such as the relationship between superconductivity and the chemical/structural properties of materials.
 
 
-### Objectives
+## Objectives
 Develop machine learning algorithms that allow to establish a relationship between the chemical composition, various properties of superconductors, and their critical temperature.
 
 
-### 1. Dataset Description
+## 1. Dataset Description
 The dataset comes from a database of superconducting materials compiled by Japan's National Institute of Materials Science (NIMS).
 
 See [0_Data_Exploration](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/0_Data_Exploration.ipynb) notebook.
 
-### 2. Models Training
+## 2. Models Training
 Different models are trained:
 - Linear Regression
 - Random Forest
@@ -36,7 +36,12 @@ Using several preprocessing configurations and combinations:
 
 See [1_Training](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/1_Training.ipynb) notebook.
 
-### 3. Relationship between Critical Temperature and other features
+## 3. Relationship between Critical Temperature and other features
+To investigate on the relationship between critical temperature and other features, have been considered the following indicators:
+- the *coefficients* of the Linear Regression model
+- the *feature importance* based on *mean decrease in impurity*, of Random Forest and XGBoost models
+- the *feature importance* based on *feature permutation*, of Random Forest and XGBoost models
 
+See [2_Features_Importance](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/2_Features_Importance.ipynb) notebook.
 
 ### Results
