@@ -2,6 +2,8 @@
 
 Kaggle Competition available [here](https://www.kaggle.com/competitions/critical-temperature-of-superconductors/overview).
 
+In the [one-page/](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/tree/main/one-page) folder are available the PDF and HTML versions (to interact with the hiplot tool) of the whole project
+
 ## Problem Description
 The phenomenon of superconductivity ([Wikipedia](https://en.wikipedia.org/wiki/Superconductivity)) was discovered by Heike Kamerlingh-Onnes in 1911.
 
