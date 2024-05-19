@@ -28,7 +28,7 @@ Different models are trained:
 - SVM
 
 Using several preprocessing configurations and combinations:
-- Removing high correlated features
+- Removing highly correlated features
 - StandardScaler, MinMaxScaler
 - Normalizer L1, L2, Max
 - PCA
