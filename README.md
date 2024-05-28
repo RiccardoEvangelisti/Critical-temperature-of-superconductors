@@ -7,13 +7,14 @@ In the [one-page/](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-t
 ## Problem Description
 The phenomenon of superconductivity ([Wikipedia](https://en.wikipedia.org/wiki/Superconductivity)) was discovered by Heike Kamerlingh-Onnes in 1911.
 
-Superconductivity is a property of certain substances and materials whose *electrical resistance* drops to zero when the temperature drops to a certain level. Superconductivity occurs in a spike when the temperature drops. The temperature at which the spike occurs is called the **critical temperature**.
+Superconductivity is a property of certain substances and materials whose electrical resistance drops to zero when the temperature equals to a certain value, called the **critical temperature**.
 
-Although superconductivity was discovered more than a century ago, many of its properties are poorly understood, such as the relationship between superconductivity and the chemical/structural properties of materials.
+Many of the superconductivity properties are poorly understood, especially if the critical temperature can be predicted from the chemical and physical properties of the material.
 
 
 ## Objectives
-Develop machine learning algorithms that allow to establish a relationship between the chemical composition, various properties of superconductors, and their critical temperature.
+1. Develop ML algorithms that can correctly predict the critical temperature, given the chemical structure and physical properties of a substance
+2. Find which features are the most relevant in the estimation
 
 
 ## 1. Dataset Description
@@ -46,7 +47,7 @@ To investigate on the relationship between critical temperature and other featur
 
 See [2_Features_Importance](https://github.com/RiccardoEvangelisti/Evangelisti-Critical-temperature-of-superconductors/blob/main/2_Features_Importance.ipynb) notebook.
 
-## 4. Results
+## 4. Best Result
 
 |   |   |
 |---|---|
