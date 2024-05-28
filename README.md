@@ -52,8 +52,8 @@ See [2_Features_Importance](https://github.com/RiccardoEvangelisti/Evangelisti-C
 |---|---|
 |Best Model| **XGBoost**|
 |Preprocessing| **None**|
-| R^2| **0.931** |
 | MSE | **78.09** |
+| R^2| **0.931** |
 
 Mainly looking at the *Feature Permutation* of the XGBoost model, the most "important" features are: ***Cu, Ca, Ba, O, range_ThermalConductivity, Valence***
 
