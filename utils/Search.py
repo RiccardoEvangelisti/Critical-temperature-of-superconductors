@@ -109,8 +109,8 @@ def print_results(file_name, head):
     df = pd.read_csv(file_name)
     return (
         df[["tag", "R2", "MSE"] + [col for col in df.columns if col not in ["tag", "R2", "MSE"]]]
-        .sort_values(by="R2", ascending=False)
+        .sort_values(by="MSE", ascending=True)
         .head(head)
         .style.format(precision=4)
-        .set_caption("R2 sorted")
+        .set_caption("MSE sorted")
     )
